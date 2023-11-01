@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    color: #f4f4f4;
+}
+
+.conInfoPlastico{
+
+  width: calc(100vw - padding);
+  height: 90vh;
+  justify-content: center;
+  padding: 1.2em;
+  margin-top: -0vh;
+}
+
+.textosVermelhos{
+  color:#B30000;
+  font-size: 3vh; 
+  font-family: 'Nunito', sans-serif;
+}
+.ajustar{
+  margin-left: 14vh;
+  }
+.conInfoMateriais{
+
+  width: calc(100vw - padding);
+  height: 90vh;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -8vh;
+}
+
+.tituloMateriais{
+  font-family: 'Nunito', sans-serif;
+  font-size: 5vh;
+  margin-top: 5vh; 
+  margin: 0 auto;
+}
+
+.alturaCardCursos{
+  height: 20vh;
+}
+
+.alturaImagsCursos{
+  height: 215px;
+}
+
+.marginCards{
+  margin-bottom: 25vh;
+  margin-top: 3vh;
+}
+.cc{
+  display: flex;
+  flex-wrap: wrap;
+  width: 30vh;
+  height: auto;
+  margin: 5vh;
+  justify-content: center;
+}
+/*----------------height------------------*/
+
+.h1{
+    height: 1vh;
+  }
+  
+  .h5{
+    height: 5vh;
+  }
+  
+  .h10{
+    height: 10vh;
+  }
+  
+  .h15{
+    height: 15vh;
+  }
+  
+  .h20{
+    height: 20vh;
+  }
+  
+  .h30{
+    height: 30vh;
+  }
+  
+  .h40{
+    height: 40vh;
+  }
+  
+  .h50{
+    height: 50vh;
+  }
+  

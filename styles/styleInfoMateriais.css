@@ -1,10 +1,9 @@
 body{
     margin: 0;
-    color: #f4f4f4;
+    background-color: #f4f4f4;
 }
 
 .conInfoPlastico{
-
   width: calc(100vw - padding);
   height: 90vh;
   justify-content: center;
@@ -17,16 +16,26 @@ body{
   font-size: 3vh; 
   font-family: 'Nunito', sans-serif;
 }
+
+.textosAmarelos{
+  color:#F0be00;
+  font-size: 3vh; 
+  font-family: 'Nunito', sans-serif;
+}
 .ajustar{
   margin-left: 14vh;
   }
 .conInfoMateriais{
-
   width: calc(100vw - padding);
-  height: 90vh;
+  height: 80vh;
   flex-direction: row;
   justify-content: center;
   margin-top: -8vh;
+}
+
+.nav-custom {
+  background-color: #f4f4f4;
+  border-radius: 1vh;
 }
 
 .tituloMateriais{
@@ -37,7 +46,7 @@ body{
 }
 
 .alturaCardCursos{
-  height: 20vh;
+  height: 27.5vh;
 }
 
 .alturaImagsCursos{
@@ -56,6 +65,8 @@ body{
   margin: 5vh;
   justify-content: center;
 }
+
+.tabCon
 /*----------------height------------------*/
 
 .h1{

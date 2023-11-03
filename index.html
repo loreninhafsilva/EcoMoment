@@ -373,35 +373,35 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
 
  <!---final container notícias-->
 
-  <!---Início container info materiais-->
-  <div class="conInfoMateriais container-fluid">
+ <div class="conInfoMateriais container-fluid">
   <div class="row">
         <div class="col-md-12 d-none d-md-block">
+          <div class="h5"></div>
         </div>
     
         <div class="col-md-4 col-sm-4"></div>
     
         <div class="col-md-8 col-sm-8">
-          <p class="tituloMateriais fw-bold ajustar2">Principais materiais</p>
+          <p class="fw-bold tituloMateriais">Principais materiais</p>
         </div>
-    
-        <div class="col-md-2 d-md-block ajustar">
+  <div class="col-md-1"></div>
+        <div class="col-md-2 d-none d-md-block">
           <div class="marginCards">
             <div class="card cc">
-              <img src="imagens/garrafas-de-plástico-reutilizadas-6.jpg" class="card-img-top alturaImagsCursos" style="height: 40vh;" alt="...">
+              <img src="imagens/garrafas-de-plástico-reutilizadas-6.jpg" class="card-img-top alturaImagsCursos" alt="...">
               <div class="card-body alturaCardCursos">
                 <h5 class="card-title">Plástico</h5>
                 <p class="card-text"></p>
-                <a href="paginas/plastico.html" class="btn btn-danger" style="background-color:#004852; border-color:#004852;">Saiba mais</a>
+                <a href="paginas/ideiaCesta.html" class="btn btn-danger" style="background-color:#004852; border-color:#004852;">Saiba mais</a>
               </div>
             </div>
           </div>
         </div>
     
-        <div class="col-md-2 d-md-block">
+        <div class="col-md-2 d-none d-md-block">
           <div class="marginCards">
             <div class="card cc">
-              <img src="imagens/vidroREutilizado.png" class="card-img-top alturaImagsCursos" alt="..." style="height: 40vh;">
+              <img src="imagens/vidroREutilizado.png" class="card-img-top alturaImagsCursos" alt="...">
               <div class="card-body alturaCardCursos">
                 <h5 class="card-title">Vidro</h5>
                 <p class="card-text"></p>
@@ -411,10 +411,10 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
           </div>
         </div>
     
-        <div class="col-md-2 d-md-block">
+        <div class="col-md-2 d-none d-md-block">
           <div class="marginCards">
             <div class="card cc">
-              <img src="imagens/metalreutilizado.webp" class="card-img-top alturaImagsCursos" alt="..." style="height: 40vh;">
+              <img src="imagens/metalreutilizado.webp" class="card-img-top alturaImagsCursos" alt="...">
               <div class="card-body alturaCardCursos">
                 <h5 class="card-title">Metal</h5>
                 <p class="card-text"></p>
@@ -424,10 +424,10 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
           </div>
         </div>
     
-        <div class="col-md-2 d-md-block">
+        <div class="col-md-2 d-none d-md-block">
           <div class="marginCards">
             <div class="card cc">
-              <img src="imagens/papelreutilizado.jpg" class="card-img-top alturaImagsCursos" alt="..." style="height: 40vh;">
+              <img src="imagens/papelreutilizado.jpg" class="card-img-top alturaImagsCursos" alt="...">
               <div class="card-body alturaCardCursos">
                 <h5 class="card-title">Papel</h5>
                 <p class="card-text"></p>
@@ -437,10 +437,10 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
           </div>
         </div>
     
-        <div class="col-md-2 d-md-block">
+        <div class="col-md-2 d-none d-md-block">
           <div class="marginCards">
             <div class="card cc">
-              <img src="imagens/organicosreutilizados.jpg" class="card-img-top alturaImagsCursos" alt="..." style="height: 40vh;">
+              <img src="imagens/organicosreutilizados.jpg" class="card-img-top alturaImagsCursos" alt="...">
               <div class="card-body alturaCardCursos">
                 <h5 class="card-title">Orgânicos</h5>
                 <p class="card-text"></p>
@@ -449,10 +449,64 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
             </div>
           </div>
         </div>
-  </div>
-  </div>
+    
+        <!--Accordion-->
+    <div class="col-12 d-md-none">
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Plástico
+              </button>
+            </h5>
+          </div>
+        </div>
 
-      
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+               Vidro
+              </button>
+            </h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Metal
+              </button>
+            </h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Papel
+              </button>
+            </h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Orgânicos
+              </button>
+            </h5>
+          </div>
+        </div>
+
+      </div>
+    </div><!--Div Accordion-->
+  </div><!--Div row-->
+</div><!--Div container-->
 
 <!--Container contato-->
 <div id="containerContato" class="containerContato container-fluid">

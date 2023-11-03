@@ -295,7 +295,7 @@
 #containerContato{
   background-color: #72A0C1;
   width: calc(100vw - padding);
-  height: 90vh;
+  height: 95vh;
   justify-content: center;
   padding: 1.2em;
 }
@@ -364,7 +364,7 @@ margin-left: 14vh;
   margin: 0 auto;
 }
 
-@media (max-width: 595.98px){
+@media (max-width: 599px){
   .conInfoMateriais{
     background-color:#F4F4F4;
     width: calc(100vw - padding);
@@ -426,7 +426,7 @@ margin-left: 14vh;
   .conMapa{
     background-color:#F4F4F4;
     width: calc(100vw - padding);
-    height: 97vh;
+    height: 78vh;
     flex-direction: row;
     justify-content: center;
     padding: 1.2em;
@@ -447,7 +447,7 @@ margin-left: 14vh;
     height: 50vh;
     flex-direction: row;
     justify-content: center;
-    margin-top: 15vh;
+    margin-top: 30vh;
   }
 
   .noticia{
@@ -459,9 +459,13 @@ margin-left: 14vh;
 
   .tituloMateriais{
     font-family: 'Nunito', sans-serif;
-    font-size: 4vh; 
+    font-size: 3vh; 
     margin-left: 8vh;
   }
+}
+
+@media(max-width: 750px){
+  
 }
 
 

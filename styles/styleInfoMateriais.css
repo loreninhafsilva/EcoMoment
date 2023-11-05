@@ -145,6 +145,13 @@ body{
   --bs-accordion-btn-focus-border-color: unset;
 }
 
+#accordionFlushExample2{
+  --bs-accordion-btn-bg:#f4f4f4;
+  --bs-accordion-bg: #90b6d1de;
+  --bs-accordion-color:aliceblue;
+  --bs-accordion-btn-focus-border-color: unset;
+}
+
 @media (max-width: 575.98px){
   .conInfoMetal{
     width: calc(100vw - padding);
@@ -283,7 +290,7 @@ body{
 
   .conInfoVidro{
     width: calc(100vw - padding);
-    height: 53vh;
+    height: 100vh;
     flex-direction: row;
     justify-content: center;
     margin-top: -8vh;

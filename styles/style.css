@@ -22,17 +22,13 @@
   }
 
   .alturaCardCursos{
-    height: 20vh;
+    height: 17vh;
   }
 
   .alturaImagsCursos{
     height: 215px;
   }
 
-  .marginCards{
-    margin-bottom: 25vh;
-    margin-top: 3vh;
-  }
 
   .containerLanding{
     background-color: #4E9E5A;
@@ -251,7 +247,7 @@
 .conNoticias{
   background-color:#72A0C1;
   width: calc(100vw - padding);
-  height: 100vh;
+  height: 110vh;
   flex-direction: row;
   justify-content: center;
   margin: 0 auto;
@@ -266,11 +262,10 @@
 .conInfoMateriais{
   background-color:#F4F4F4;
   width: calc(100vw - padding);
-  height: 90vh;
+  height: 95vh;
   flex-direction: row;
   justify-content: center;
   padding: 1.2em;
-   margin: 0 auto;
 }
 
 .tituloMateriais{
@@ -295,7 +290,7 @@
 #containerContato{
   background-color: #72A0C1;
   width: calc(100vw - padding);
-  height: 95vh;
+  height: 98vh;
   justify-content: center;
   padding: 1.2em;
 }
@@ -368,7 +363,7 @@ margin-left: 14vh;
   .conInfoMateriais{
     background-color:#F4F4F4;
     width: calc(100vw - padding);
-    height: 58vh;
+    height: 100vh;
     flex-direction: row;
     justify-content: center;
     padding: 1.2em;
@@ -420,13 +415,12 @@ margin-left: 14vh;
     height: 70vh;
     justify-content: center;
     padding: 1.2em;
-    margin-top: 10vh;
   }
 
   .conMapa{
     background-color:#F4F4F4;
     width: calc(100vw - padding);
-    height: 78vh;
+    height: 100vh;
     flex-direction: row;
     justify-content: center;
     padding: 1.2em;
@@ -464,20 +458,114 @@ margin-left: 14vh;
   }
 }
 
-@media(max-width: 750px){
-  
-}
-
-
 div [class="carousel-inner"]
 {
   padding-left: 15%;
   padding-right: 15%;
 }
+
+@media (max-width: 991.98px){
+
+  .containerLanding{
+    background-color: #4E9E5A;
+    width: calc(100vw - padding);
+    height: 90vh;
+    justify-content: center;
+    padding: 1.2em;
+    margin: 0 auto;
+  }
+
+  .button {
+    font-family: 'Nunito', sans-serif;
+    width: 200px;
+    height: 70px;
+    background-image: linear-gradient(#004852, #004852);
+    border: none;
+    font-size: 1vh;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    cursor: pointer;
+    transition-duration: .3s;
+  }
+
+  #mapa {
+    border-radius: 3vh;
+    height: 30vh;
+    width: 65vh;
+    flex-direction: row;
+    display: flex;
+  }
+
+  .texto1mapa{
+    font-family: 'Nunito', sans-serif;
+    flex-direction: row;
+    display: flex;
+    font-size: 3em;
+  }
+  
+  .texto2mapa{
+    font-family: 'Nunito', sans-serif;
+    flex-direction: row;
+    display: flex;
+    font-size: 2em;
+  }
+
+  .conMapa{
+    background-color:#F4F4F4;
+    width: calc(100vw - padding);
+    height: 140vh;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1.2em;
+    margin: 0 auto;
+  }
+
+  .conNoticias{
+    background-color:#72A0C1;
+    width: calc(100vw - padding);
+    height: 75vh;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .cc{
+    display: flex;
+    flex-wrap: wrap;
+    width: 18vh;
+    height: 30vh;
+    margin: 10vh;
+  }
+
+  .conInfoMateriais{
+    background-color:#F4F4F4;
+    width: calc(100vw - padding);
+    height: 70vh;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1.2em;
+  }
+
+  .alturaCardCursos{
+    height: 14vh;
+  }
+
+  .ajustar{
+    margin-left: -3vh;
+    }
+ }
 /*----------------height------------------*/
 
 .h1{
   height: 1vh;
+}
+
+.h3{
+  height: 3vh;
 }
 
 .h5{

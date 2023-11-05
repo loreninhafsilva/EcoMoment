@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card-image{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.card-image .card-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.conMelhores{
+  background-color:#ffffff;
+  width: calc(100vw - padding);
+  height: 99vh;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1.2em;
+  margin: 0 auto;
+}
+
+.containerMadeira{
+  background-color:#F4F4F4;
+  width: calc(100vw - padding);
+  height: 99vh;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1.2em;
+  margin: 0 auto;
+}
+
+.cardMelhores {
+    grid-column: span 4;
+    border: none;
+    padding: 2px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.card-imgMelhores {
+  border-radius: 1vh; 
+  box-shadow: 2px 2px 4px black;
+}
+
+.card-body{
+  background-color: #ffffff;
+  border: #F4F4F4;
+}
+
+.tituloVermelho{
+    color:#B30000;
+    font-size: 9vh; 
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .tituloAmarelo{
+    color:#F0be00;
+    font-size: 9vh; 
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .tituloPreto{
+    color:black;
+    font-size: 9vh; 
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .textosAzuis{
+    color:#6082B6;
+    font-size: 9vh; 
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .textosVerdes{
+    color: #009E60;
+    font-size: 9vh; 
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .textosMarrons{
+    color:#813a00;
+    font-size: 9vh; 
+    font-family: 'Nunito', sans-serif;
+  }
+
+
+@media (max-width: 768px) {
+.card {
+    grid-column: span 6;
+}
+}
+
+@media (max-width: 480px) {
+.card {
+    grid-column: span 12;
+}
+}
+
+
+/*----------------height------------------*/
+
+.h1{
+  height: 1vh;
+}
+
+.h5{
+  height: 5vh;
+}
+
+.h10{
+  height: 10vh;
+}
+
+.h15{
+  height: 15vh;
+}
+
+.h20{
+  height: 20vh;
+}
+
+.h30{
+  height: 30vh;
+}
+
+.h40{
+  height: 40vh;
+}
+
+.h50{
+  height: 50vh;
+}

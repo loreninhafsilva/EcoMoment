@@ -292,7 +292,7 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
 <div class="conMapa container-fluid">
   <div class="row">
     <div class="col-lg-12 d-none d-md-block h15"></div>
-    <div class="col-lg-5 col-md-5 col-sm-12" style="margin: 0 auto;">
+    <div class="col-lg-5 col-md-12 col-sm-12" style="margin: 0 auto;">
       <br> <br>
       <p class="texto1mapa fw-bold">
         Conheça nosso mapa de pontos de coleta mais próximos da sua casa!
@@ -317,8 +317,8 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
         </div>
       </div>
     </div>
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <div class="h-5 d-md-none d-lg-block"></div>
+    <div class="col-lg-6 col-md-12 col-sm-12">
+      <div class="h5"></div>
       <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14738.302984187023!2d-47.419087502272156!3d-22.557560011791693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c88082d6720c33%3A0x2804dd64dab85840!2sEcoponto%20-%20Anavec!5e0!3m2!1spt-BR!2sbr!4v1696874515450!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="img-fluid"></iframe>
     </div>
   </div>
@@ -375,81 +375,87 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
 
  <div class="conInfoMateriais container-fluid">
   <div class="row">
-        <div class="col-md-12 d-none d-md-block">
-          <div class="h5"></div>
-        </div>
-    
-        <div class="col-md-4 col-sm-4"></div>
-    
-        <div class="col-md-8 col-sm-8">
-          <p class="fw-bold tituloMateriais">Principais materiais</p>
-        </div>
-  <div class="col-md-1"></div>
-        <div class="col-md-2 d-none d-md-block">
+    <div class="h10">
+      <p class="fw-bold tituloMateriais" style="text-align: center;">Principais materiais</p>
+    </div>
+
+    <div class="h3"></div> 
+        <div class="col-lg-1 d-none d-md-block"></div>
+        <div class="col-lg-2 col-md-2 d-none d-md-block">
           <div class="marginCards">
             <div class="card cc">
               <img src="imagens/garrafas-de-plástico-reutilizadas-6.jpg" class="card-img-top alturaImagsCursos" alt="...">
               <div class="card-body alturaCardCursos">
+                <div style="text-align: center;">
                 <h5 class="card-title">Plástico</h5>
                 <p class="card-text"></p>
                 <a href="paginas/ideiaCesta.html" class="btn btn-danger" style="background-color:#004852; border-color:#004852;">Saiba mais</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-    
-        <div class="col-md-2 d-none d-md-block">
+   
+        <div class="col-lg-2 col-md-2 d-none d-md-block">
           <div class="marginCards">
             <div class="card cc">
               <img src="imagens/vidroREutilizado.png" class="card-img-top alturaImagsCursos" alt="...">
               <div class="card-body alturaCardCursos">
+                <div style="text-align: center;">
                 <h5 class="card-title">Vidro</h5>
                 <p class="card-text"></p>
                 <a href="paginas/ideiaVaso.html" class="btn btn-danger" style="background-color:#004852; border-color:#004852;">Saiba mais</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-    
-        <div class="col-md-2 d-none d-md-block">
+   
+        <div class="col-lg-2 col-md-2 d-none d-md-block">
           <div class="marginCards">
             <div class="card cc">
               <img src="imagens/metalreutilizado.webp" class="card-img-top alturaImagsCursos" alt="...">
               <div class="card-body alturaCardCursos">
+                <div style="text-align: center;">
                 <h5 class="card-title">Metal</h5>
                 <p class="card-text"></p>
                 <a href="paginas/ideiaCesta.html" class="btn btn-danger" style="background-color:#004852; border-color:#004852;">Saiba mais</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-    
-        <div class="col-md-2 d-none d-md-block">
+   
+        <div class="col-lg-2 col-md-2 d-none d-md-block">
           <div class="marginCards">
             <div class="card cc">
               <img src="imagens/papelreutilizado.jpg" class="card-img-top alturaImagsCursos" alt="...">
               <div class="card-body alturaCardCursos">
+                <div style="text-align: center;">
                 <h5 class="card-title">Papel</h5>
                 <p class="card-text"></p>
                 <a href="paginas/ideiaVaso.html" class="btn btn-danger" style="background-color:#004852; border-color:#004852;">Saiba mais</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-    
-        <div class="col-md-2 d-none d-md-block">
+   
+        <div class="col-lg-2 col-md-2 d-none d-md-block">
           <div class="marginCards">
             <div class="card cc">
               <img src="imagens/organicosreutilizados.jpg" class="card-img-top alturaImagsCursos" alt="...">
               <div class="card-body alturaCardCursos">
+                <div style="text-align: center;">
                 <h5 class="card-title">Orgânicos</h5>
                 <p class="card-text"></p>
                 <a href="paginas/ideiaVaso.html" class="btn btn-danger" style="background-color:#004852; border-color:#004852;">Saiba mais</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-    
+   <div class="col-lg-1 h2"></div>
         <!--Accordion-->
     <div class="col-12 d-md-none">
       <div class="accordion" id="accordionExample">
@@ -506,7 +512,10 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
       </div>
     </div><!--Div Accordion-->
   </div><!--Div row-->
-</div><!--Div container-->
+</div>
+
+
+      
 
 <!--Container contato-->
 <div id="containerContato" class="containerContato container-fluid">
@@ -519,7 +528,7 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
       <h1 id="emailEco">Comunicados para a equipe:</h1>
     </div>
 
-    <div class="col-md-4 col-sm-12 d-none d-md-block">
+    <div class="col-lg-4 col-md-12 d-none d-md-block">
 
       <h1 id="fim">Fale conosco!</h1>
       <div class="h15"></div>
@@ -530,7 +539,7 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
       <i class="bi bi-instagram" style="margin-left: 5vh;"></i> <i class="bi bi-github"></i>
     </div>
 
-    <div class="col-md-4 col-sm-12 d-none d-md-block">
+    <div class="col-lg-4 col-md-12 d-none d-md-block">
       <br><br>
       <br>
       <p id="contatoTexto">Lorena Silva</p>
@@ -549,7 +558,7 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
       <div class="h5"></div>
     </div>
 
-    <div class="col-md-4 col-sm-12 d-none d-md-block">
+    <div class="col-lg-4 col-md-12 d-none d-md-block">
       <br><br>
       <br>
       <p id="contatoTexto" class="d-none d-md-block">Beatriz Cardia</p>

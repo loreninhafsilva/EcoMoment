@@ -5,7 +5,7 @@ body{
 
 .conInfoPlastico{
   width: calc(100vw - padding);
-  height: 90vh;
+  height: 80vh;
   justify-content: center;
   padding: 1.2em;
   margin-top: -0vh;
@@ -13,18 +13,44 @@ body{
 
 .textosVermelhos{
   color:#B30000;
-  font-size: 3vh; 
+  font-size: 9vh; 
   font-family: 'Nunito', sans-serif;
 }
 
 .textosAmarelos{
   color:#F0be00;
-  font-size: 3vh; 
+  font-size: 9vh; 
   font-family: 'Nunito', sans-serif;
 }
+
+.textosPretos{
+  color:black;
+  font-size: 9vh; 
+  font-family: 'Nunito', sans-serif;
+}
+
+.textosAzuis{
+  color:#6082B6;
+  font-size: 9vh; 
+  font-family: 'Nunito', sans-serif;
+}
+
+.textosVerdes{
+  color: #009E60;
+  font-size: 9vh; 
+  font-family: 'Nunito', sans-serif;
+}
+
+.textosMarrons{
+  color:#813a00;
+  font-size: 9vh; 
+  font-family: 'Nunito', sans-serif;
+}
+
 .ajustar{
   margin-left: 14vh;
   }
+
 .conInfoMateriais{
   width: calc(100vw - padding);
   height: 80vh;
@@ -33,40 +59,297 @@ body{
   margin-top: -8vh;
 }
 
+.conInfoMetal{
+  width: calc(100vw - padding);
+  height: 70vh;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -8vh;
+}
+
+.conideiasMetal{
+  width: calc(100vw - padding);
+  height: 60vh;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.conInfoPapel{
+  width: calc(100vw - padding);
+  height: 70vh;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.conideiasPapel{
+  width: calc(100vw - padding);
+  height: 60vh;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.conInfoVidro{
+  width: calc(100vw - padding);
+  height: 70vh;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -8vh;
+}
+
+.conideiasVidro{
+  width: calc(100vw - padding);
+  height: 60vh;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.conideiasOrg{
+  width: calc(100vw - padding);
+  height: 60vh;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.conInfoOrg{
+  width: calc(100vw - padding);
+  height: 70vh;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -8vh;
+}
+
+
+.conInfoMadeiras{
+  width: calc(100vw - padding);
+  height: 70vh;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.conideiasMadeiras{
+  width: calc(100vw - padding);
+  height: 160vh;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .nav-custom {
   background-color: #f4f4f4;
   border-radius: 1vh;
 }
 
-.tituloMateriais{
-  font-family: 'Nunito', sans-serif;
-  font-size: 5vh;
-  margin-top: 5vh; 
-  margin: 0 auto;
+#accordionFlushExample{
+  --bs-accordion-btn-bg:#72A0C1;
+  --bs-accordion-bg: #90b6d1de;
+  --bs-accordion-color:aliceblue;
+  --bs-accordion-btn-focus-border-color: unset;
 }
 
-.alturaCardCursos{
-  height: 27.5vh;
+@media (max-width: 575.98px){
+  .conInfoMetal{
+    width: calc(100vw - padding);
+    height: 130vh;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .conInfoPapel{
+    width: calc(100vw - padding);
+    height: 170vh;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .conInfoMadeiras{
+    width: calc(100vw - padding);
+    height: 110vh;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .conideiasMadeiras{
+    width: calc(100vw - padding);
+    height: 60vh;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .textosPretos{
+    color:black;
+    font-size: 4vh; 
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .textosAmarelos{
+    color:#F0be00;
+    font-size: 4vh; 
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .textosAzuis{
+    color:#6082B6;
+    font-size: 4vh; 
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .textosVerdes{
+    color: #009E60;
+    font-size: 4vh; 
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .textosMarrons{
+    color:#813a00;
+    font-size: 4vh; 
+    font-family: 'Nunito', sans-serif;
+  }
+  
+
+  .textosVermelhos{
+    color:#B30000;
+    font-size: 4vh; 
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .conInfoPlastico{
+    width: calc(100vw - padding);
+    height: 170vh;
+    justify-content: center;
+    padding: 1.2em;
+    margin-top: -0vh;
+  }
+
+  .conInfoVidro{
+    width: calc(100vw - padding);
+    height: 146vh;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -8vh;
+  }
+
+  .conInfoOrg{
+    width: calc(100vw - padding);
+    height: 130vh;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -8vh;
+  }
+  
 }
 
-.alturaImagsCursos{
-  height: 215px;
-}
-
-.marginCards{
-  margin-bottom: 25vh;
-  margin-top: 3vh;
-}
-.cc{
-  display: flex;
-  flex-wrap: wrap;
-  width: 30vh;
-  height: auto;
-  margin: 5vh;
+.containerContato{
+  background-color: #72A0C1;
+  width: calc(100vw - padding);
+  height: 98vh;
   justify-content: center;
+  padding: 1.2em;
 }
 
-.tabCon
+#emailEco{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  font-size: 3vh;
+  color: black;
+  display: flex;
+  margin-left: 5vh;
+  font-weight: bold;
+}
+
+#contatoTexto{
+
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  font-size: 3vh;
+  color: black;
+  display: flex;
+  margin-left: 5vh;
+
+}
+
+#email{
+  font-family: 'Nunito', sans-serif;
+  font-size: 2.5vh;
+  color: #F4F4F4;
+  display: flex;
+  margin-left: 5vh;
+}
+
+@media (max-width: 991.98px){
+  .textosVerdes{
+    color: #009E60;
+    font-size: 5vh; 
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .conInfoVidro{
+    width: calc(100vw - padding);
+    height: 53vh;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -8vh;
+  }
+
+  .textosVermelhos{
+    color:#B30000;
+    font-size: 5vh; 
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .conInfoPlastico{
+    width: calc(100vw - padding);
+    height: 60vh;
+    justify-content: center;
+    padding: 1.2em;
+    margin-top: -0vh;
+  }
+
+  .textosAzuis{
+    color:#6082B6;
+    font-size: 5vh; 
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .conInfoPapel{
+    width: calc(100vw - padding);
+    height: 60vh;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .textosMarrons{
+    color:#813a00;
+    font-size: 5vh; 
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .conInfoOrg{
+    width: calc(100vw - padding);
+    height: 56vh;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -8vh;
+  }
+
+  .textosPretos{
+    color:black;
+    font-size: 5vh; 
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .conInfoMadeiras{
+    width: calc(100vw - padding);
+    height: 45vh;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .conideiasMadeiras{
+    width: calc(100vw - padding);
+    height: 130vh;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
 /*----------------height------------------*/
 
 .h1{

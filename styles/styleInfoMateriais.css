@@ -138,21 +138,14 @@ body{
   border-radius: 1vh;
 }
 
-#accordionFlushExample{
-  --bs-accordion-btn-bg:#72A0C1;
-  --bs-accordion-bg: #90b6d1de;
-  --bs-accordion-color:aliceblue;
-  --bs-accordion-btn-focus-border-color: unset;
-}
-
 #accordionFlushExample2{
   --bs-accordion-btn-bg:#f4f4f4;
-  --bs-accordion-bg: #90b6d1de;
+  --bs-accordion-bg: #f4f4f4;
   --bs-accordion-color:aliceblue;
   --bs-accordion-btn-focus-border-color: unset;
 }
 
-@media (max-width: 575.98px){
+@media (min-width: 10px) and (max-width: 575px){
   .conInfoMetal{
     width: calc(100vw - padding);
     height: 130vh;

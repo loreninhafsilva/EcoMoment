@@ -40,7 +40,7 @@
             <li><a class="dropdown-item" href="paginas/papel.html">Papel e papelão</a></li>
             <li><a class="dropdown-item" href="paginas/plastico.html">Plástico</a></li>
             <li><a class="dropdown-item" href="paginas/vidro.html">Vidro</a></li>
-            <li><a class="dropdown-item" href="paginas/org.html">Lixo orgânico</a></li>
+            <li><a class="dropdown-item" href="paginas/org.html">Resíduos orgânicos</a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -49,9 +49,9 @@
         <li class="nav-item">
           <a class="nav-link" href="#containerContato" style="color:aliceblue;">Contato</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="paginas/sobre.html" style="color:aliceblue;">Sobre</a>
-          </li>
+       <!-- <li class="nav-item">
+           <a class="nav-link" href="paginas/sobre.html" style="color:aliceblue;">Sobre</a>
+          </li>-->
       </ul>
       <ul class="navbar-nav me-2 my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
         <li class="nav-item">
@@ -274,11 +274,11 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
       <h1 class="ml3 fw-bold">Reciclar e reutilizar, <br> não deixe o momento passar!</h1>
       <p id="bordao">Aqui suas ideias são salvadoras.</p>
       <div class="cenbtn">
-        <button class="button" style="font-size: 3vh;">VEJA MAIS</button>
+        <button class="button" style="font-size: 3vh;">Veja mais</button>
       </div>
     </div>
 
-    <div class="col-12 col-lg-6 d-none d-lg-block">
+    <div class="col-12 col-lg-6 d-none d-lg-block ">
       <img id="gif" src="imagens/gifInicio.gif" class="img-fluid" alt="gif">
     </div>
   </div>
@@ -330,11 +330,8 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
       <!---Início container notícias-->
 <div id="conNoticias" class="conNoticias container-fluid">
   <div class="row">
-    <div class="col-lg-5 col-md-5"></div>
-    <div class="col-lg-7 col-md-7 col-sm-12">
-      <br> <br>
-      <p class="noticia fw-bold">Notícias</p>
-    </div>
+      <p class="noticia fw-bold" style="text-align: center; margin-top: 3vh;">Notícias</p>
+ 
       <br>
     <div id="carouselExampleDark" class="carousel carousel-dark slide col-md-12 col-sm-12 diminuir" style="width: 100vh;">
       <div class="carousel-indicators">
@@ -379,9 +376,9 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
       <p class="fw-bold tituloMateriais" style="text-align: center;">Principais materiais</p>
     </div>
 
-    <div class="h3"></div> 
+          <div class="h3"></div>
         <div class="col-lg-1 d-none d-md-block"></div>
-        <div class="col-lg-2 col-md-2 d-none d-md-block">
+        <div class="col-lg-2 col-md-6 d-none d-md-block">
           <div class="marginCards">
             <div class="card cc">
               <img src="imagens/garrafas-de-plástico-reutilizadas-6.jpg" class="card-img-top alturaImagsCursos" alt="...">
@@ -396,7 +393,7 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
           </div>
         </div>
    
-        <div class="col-lg-2 col-md-2 d-none d-md-block">
+        <div class="col-lg-2 col-md-6 d-none d-md-block">
           <div class="marginCards">
             <div class="card cc">
               <img src="imagens/vidroREutilizado.png" class="card-img-top alturaImagsCursos" alt="...">
@@ -411,7 +408,7 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
           </div>
         </div>
    
-        <div class="col-lg-2 col-md-2 d-none d-md-block">
+        <div class="col-lg-2 col-md-6 d-none d-md-block">
           <div class="marginCards">
             <div class="card cc">
               <img src="imagens/metalreutilizado.webp" class="card-img-top alturaImagsCursos" alt="...">
@@ -426,7 +423,7 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
           </div>
         </div>
    
-        <div class="col-lg-2 col-md-2 d-none d-md-block">
+        <div class="col-lg-2 col-md-6 d-none d-md-block">
           <div class="marginCards">
             <div class="card cc">
               <img src="imagens/papelreutilizado.jpg" class="card-img-top alturaImagsCursos" alt="...">
@@ -441,7 +438,7 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
           </div>
         </div>
    
-        <div class="col-lg-2 col-md-2 d-none d-md-block">
+        <div class="col-lg-2 col-md-6 d-none d-md-block">
           <div class="marginCards">
             <div class="card cc">
               <img src="imagens/organicosreutilizados.jpg" class="card-img-top alturaImagsCursos" alt="...">
@@ -528,7 +525,7 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
       <h1 id="emailEco">Comunicados para a equipe:</h1>
     </div>
 
-    <div class="col-lg-4 col-md-12 d-none d-md-block">
+    <div class="col-lg-4 col-md-6 d-none d-md-block">
 
       <h1 id="fim">Fale conosco!</h1>
       <div class="h15"></div>
@@ -539,7 +536,9 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
       <i class="bi bi-instagram" style="margin-left: 5vh;"></i> <i class="bi bi-github"></i>
     </div>
 
-    <div class="col-lg-4 col-md-12 d-none d-md-block">
+    
+
+    <div class="col-lg-4 col-md-6 d-none d-md-block">
       <br><br>
       <br>
       <p id="contatoTexto">Lorena Silva</p>
@@ -558,7 +557,7 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
       <div class="h5"></div>
     </div>
 
-    <div class="col-lg-4 col-md-12 d-none d-md-block">
+    <div class="col-lg-4 col-md-6 d-none d-md-block">
       <br><br>
       <br>
       <p id="contatoTexto" class="d-none d-md-block">Beatriz Cardia</p>

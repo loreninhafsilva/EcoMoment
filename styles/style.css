@@ -361,10 +361,11 @@ margin-left: 14vh;
 @media (min-width: 10px) and (max-width: 575px){
   .conInfoMateriais{
     background-color:#F4F4F4;
-    width: 100%;
+    width: calc(100vw - padding);
     height: 80vh;
     flex-direction: row;
     justify-content: center;
+    padding: 0em;
   }
 
   .ajustar{ 
@@ -451,15 +452,8 @@ margin-left: 14vh;
 
   .tituloMateriais{
     font-family: 'Nunito', sans-serif;
-    font-size: 3vh; 
-    margin-left: 8vh;
+    font-size: 3vh;
   }
-}
-
-div [class="carousel-inner"]
-{
-  padding-left: 15%;
-  padding-right: 15%;
 }
 
 @media (min-width: 576px) and (max-width: 992px){
@@ -542,7 +536,7 @@ div [class="carousel-inner"]
   .conInfoMateriais{
     background-color:#F4F4F4;
     width: calc(100vw - padding);
-    height: 170vh;
+    height: 190vh;
     flex-direction: row;
     justify-content: center;
     padding: 1.2em;
@@ -555,9 +549,52 @@ div [class="carousel-inner"]
   .ajustar{
     margin-left: -3vh;
     }
+
+    #emailEco{
+      font-family: 'Nunito', sans-serif;
+      font-weight: 500;
+      font-size: 2vh;
+      color: black;
+      display: flex;
+      margin-left: 5vh;
+      font-weight: bold;
+    }
+
+    #email{
+      font-family: 'Nunito', sans-serif;
+      font-size: 2vh;
+      color: #F4F4F4;
+      display: flex;
+      margin-left: 5vh;
+    }
+
+    #containerContato{
+      background-color: #72A0C1;
+      width: calc(100vw - padding);
+      height: 105vh;
+      justify-content: center;
+      padding: 1.2em;
+    }
+
  }
 
+ @media (min-width: 1200px) and  (max-width: 1199.98px){
+  .cc{
+    display: flex;
+    flex-wrap: wrap;
+    width: 10vh;
+    height: auto;
+    margin: 1vh;
+    justify-content: center;
+  }
+ }
  
+div [class="carousel-inner"]
+{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
 /*----------------height------------------*/
 
 .h1{

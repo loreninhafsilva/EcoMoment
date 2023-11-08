@@ -145,10 +145,25 @@ body{
   --bs-accordion-btn-focus-border-color: unset;
 }
 
-@media (min-width: 10px) and (max-width: 575px){
+.card{
+  width: 25rem; 
+  height: 13rem;
+  overflow: hidden;
+  border: transparent;
+}
+
+@media (min-width: 1px) and (max-width: 280px){
+  .textosAmarelos{
+    color:#F0be00;
+    font-size: 4vh; 
+    font-family: 'Nunito', sans-serif;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 575px){
   .conInfoMetal{
     width: calc(100vw - padding);
-    height: 130vh;
+    height: 80vh;
     flex-direction: row;
     justify-content: center;
   }
@@ -243,7 +258,45 @@ body{
     padding: 1.2em;
   }
   
+  .card{
+    width: 21rem; 
+    height: 10rem;
+    overflow: hidden;
+    border: transparent;
+  }
+  
 }
+
+@media (min-width: 576px) and (max-width: 992px){
+  .textosAmarelos{
+    color:#F0be00;
+    font-size: 5vh; 
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .card{
+    width: 21rem; 
+    height: 10rem;
+    overflow: hidden;
+    border: transparent;
+  }
+  
+  .conideiasMetal{
+    width: calc(100vw - padding);
+    height: 20vh;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .conInfoMetal{
+    width: calc(100vw - padding);
+    height: 60vh;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -8vh;
+  }
+}
+
 
 .containerContato{
   background-color: #72A0C1;

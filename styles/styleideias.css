@@ -28,8 +28,8 @@
   margin: 0 auto;
 }
 
-.containerMadeira{
-  background-color:#F4F4F4;
+.conIdeiasPlastico{
+  background-color:#ffffff;
   width: calc(100vw - padding);
   height: 99vh;
   flex-direction: row;
@@ -51,60 +51,23 @@
   box-shadow: 2px 2px 4px black;
 }
 
-.card-body{
+.card-bodyM{
   background-color: #ffffff;
   border: #F4F4F4;
 }
 
+.tituloPreto{
+  color:black;
+  font-size: 9vh; 
+  font-family: 'Nunito', sans-serif;
+}
+
 .tituloVermelho{
-    color:#B30000;
-    font-size: 9vh; 
-    font-family: 'Nunito', sans-serif;
-  }
-  
-  .tituloAmarelo{
-    color:#F0be00;
-    font-size: 9vh; 
-    font-family: 'Nunito', sans-serif;
-  }
-  
-  .tituloPreto{
-    color:black;
-    font-size: 9vh; 
-    font-family: 'Nunito', sans-serif;
-  }
-  
-  .textosAzuis{
-    color:#6082B6;
-    font-size: 9vh; 
-    font-family: 'Nunito', sans-serif;
-  }
-  
-  .textosVerdes{
-    color: #009E60;
-    font-size: 9vh; 
-    font-family: 'Nunito', sans-serif;
-  }
-  
-  .textosMarrons{
-    color:#813a00;
-    font-size: 9vh; 
-    font-family: 'Nunito', sans-serif;
-  }
-
-
-@media (max-width: 768px) {
-.card {
-    grid-column: span 6;
+  color:#B30000;
+  font-size: 9vh; 
+  font-family: 'Nunito', sans-serif;
+  margin-left: 15vh;
 }
-}
-
-@media (max-width: 480px) {
-.card {
-    grid-column: span 12;
-}
-}
-
 
 /*----------------height------------------*/
 

@@ -128,7 +128,7 @@ body{
 
 .conideiasMadeiras{
   width: calc(100vw - padding);
-  height: 160vh;
+  height: 110vh;
   flex-direction: row;
   justify-content: center;
 }
@@ -141,7 +141,7 @@ body{
 #accordionFlushExample2{
   --bs-accordion-btn-bg:#f4f4f4;
   --bs-accordion-bg: #f4f4f4;
-  --bs-accordion-color:aliceblue;
+  --bs-accordion-color:rgb(0, 0, 0);
   --bs-accordion-btn-focus-border-color: unset;
 }
 
@@ -161,16 +161,21 @@ body{
 }
 
 @media (min-width: 280px) and (max-width: 575px){
+  .card-img-top{
+  width: 9vh;
+  height: auto;
+  }
+
   .conInfoMetal{
     width: calc(100vw - padding);
-    height: 80vh;
+    height: 75vh;
     flex-direction: row;
     justify-content: center;
   }
 
   .conInfoPapel{
     width: calc(100vw - padding);
-    height: 170vh;
+    height: 90vh;
     flex-direction: row;
     justify-content: center;
   }
@@ -228,7 +233,7 @@ body{
 
   .conInfoPlastico{
     width: calc(100vw - padding);
-    height: 170vh;
+    height: 90vh;
     justify-content: center;
     padding: 1.2em;
     margin-top: -0vh;
@@ -236,7 +241,7 @@ body{
 
   .conInfoVidro{
     width: calc(100vw - padding);
-    height: 146vh;
+    height: 78vh;
     flex-direction: row;
     justify-content: center;
     margin-top: -8vh;
@@ -244,7 +249,7 @@ body{
 
   .conInfoOrg{
     width: calc(100vw - padding);
-    height: 130vh;
+    height: 80vh;
     flex-direction: row;
     justify-content: center;
     margin-top: -8vh;
@@ -259,10 +264,14 @@ body{
   }
   
   .card{
-    width: 21rem; 
-    height: 10rem;
+    width: 19rem; 
+    height: 8rem;
     overflow: hidden;
     border: transparent;
+  }
+
+  .accordion{
+    width: 50vh;
   }
   
 }
@@ -270,6 +279,37 @@ body{
 @media (min-width: 576px) and (max-width: 992px){
   .textosAmarelos{
     color:#F0be00;
+    font-size: 5vh; 
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .textosPretos{
+    color:black;
+    font-size: 5vh; 
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .textosAzuis{
+    color:#6082B6;
+    font-size: 5vh; 
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .textosVerdes{
+    color: #009E60;
+    font-size: 5vh; 
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .textosMarrons{
+    color:#813a00;
+    font-size: 5vh; 
+    font-family: 'Nunito', sans-serif;
+  }
+  
+
+  .textosVermelhos{
+    color:#B30000;
     font-size: 5vh; 
     font-family: 'Nunito', sans-serif;
   }

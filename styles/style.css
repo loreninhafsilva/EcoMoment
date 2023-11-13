@@ -579,14 +579,10 @@ margin-left: 14vh;
  }
 
  @media (min-width: 1200px) and  (max-width: 1199.98px){
-  .cc{
-    display: flex;
-    flex-wrap: wrap;
-    width: 10vh;
-    height: auto;
-    margin: 1vh;
-    justify-content: center;
+  .card{
+    width: 5vh;
   }
+  
  }
  
 div [class="carousel-inner"]

@@ -33,7 +33,6 @@
   .containerLanding{
     background-color: #4E9E5A;
     width: calc(100vw - padding);
-    height: 90vh;
     justify-content: center;
     padding: 1.2em;
     margin: 0 auto;
@@ -89,7 +88,6 @@
   .conMapa{
     background-color:#F4F4F4;
     width: calc(100vw - padding);
-    height: 99vh;
     flex-direction: row;
     justify-content: center;
     padding: 1.2em;
@@ -247,7 +245,6 @@
 .conNoticias{
   background-color:#72A0C1;
   width: calc(100vw - padding);
-  height: 110vh;
   flex-direction: row;
   justify-content: center;
   margin: 0 auto;
@@ -262,7 +259,6 @@
 .conInfoMateriais{
   background-color:#F4F4F4;
   width: 100%;
-  height: 95vh;
   flex-direction: row;
   justify-content: center;
 }
@@ -288,7 +284,6 @@
 #containerContato{
   background-color: #72A0C1;
   width: calc(100vw - padding);
-  height: 98vh;
   justify-content: center;
   padding: 1.2em;
 }
@@ -362,7 +357,6 @@ margin-left: 14vh;
   .conInfoMateriais{
     background-color:#F4F4F4;
     width: calc(100vw - padding);
-    height: 80vh;
     flex-direction: row;
     justify-content: center;
     padding: 0em;
@@ -411,7 +405,6 @@ margin-left: 14vh;
   .containerContato{
     background-color: #72A0C1;
     width: calc(100vw - padding);
-    height: 60vh;
     justify-content: center;
     padding: 1.2em;
   }
@@ -419,7 +412,6 @@ margin-left: 14vh;
   .conMapa{
     background-color:#F4F4F4;
     width: calc(100vw - padding);
-    height: 90vh;
     flex-direction: row;
     justify-content: center;
     padding: 1.2em;
@@ -437,7 +429,6 @@ margin-left: 14vh;
   .conNoticias{
     background-color:#72A0C1;
     width: calc(100vw - padding);
-    height: 50vh;
     flex-direction: row;
     justify-content: center;
     margin-top: 30vh;
@@ -461,7 +452,6 @@ margin-left: 14vh;
   .containerLanding{
     background-color: #4E9E5A;
     width: calc(100vw - padding);
-    height: 80vh;
     justify-content: center;
     padding: 1.2em;
     margin: 0 auto;
@@ -509,7 +499,6 @@ margin-left: 14vh;
   .conMapa{
     background-color:#F4F4F4;
     width: calc(100vw - padding);
-    height: 100vh;
     flex-direction: row;
     justify-content: center;
     padding: 1.2em;
@@ -519,7 +508,6 @@ margin-left: 14vh;
   .conNoticias{
     background-color:#72A0C1;
     width: calc(100vw - padding);
-    height: 70vh;
     flex-direction: row;
     justify-content: center;
     margin: 0 auto;
@@ -536,7 +524,6 @@ margin-left: 14vh;
   .conInfoMateriais{
     background-color:#F4F4F4;
     width: calc(100vw - padding);
-    height: 190vh;
     flex-direction: row;
     justify-content: center;
     padding: 1.2em;
@@ -578,7 +565,7 @@ margin-left: 14vh;
 
  }
 
- @media (min-width: 1200px) and  (max-width: 1199.98px){
+ @media (min-width: 1199.98px) and  (max-width: 1200px){
   .card{
     width: 5vh;
   }
